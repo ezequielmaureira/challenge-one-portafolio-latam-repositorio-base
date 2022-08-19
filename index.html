@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+    <!-- Referencia de la hoja de estilo de Css -->
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    
+ <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+
+  
+    <title> Mi Portafolio</title>
+</head>
+
+ <body>
+    
+
+  
+    <section class="Header">
+    
+       
+         <div class="nombre">
+               <h1 >Ezequiel Rene Maureira</h1>
+         </div>
+           <nav>
+               <ul>
+                <li><a href="#sobre-mi"><h1>Sobre mi</h1></a></li>     
+                <li><a href="#skills"><h1>Skills</h1></a></li> 
+                <li><a href="#hobbies"><h1>Hobbies</h1></a></li> 
+                <li><a href="#formacion"><h1>Formación</h1></a></li> 
+                <li><a href="#proyectos"><h1>Proyectos</h1></li> 
+                <li><a href="#contacto"><h1>Contacto</h1></a></li> 
+            </ul>
+           </nav>
+      
+    </section>
+
+    
+    <!-- Sección del banner -->
+    <section class="banner">
+                 
+                <img class="fotoPerfil" src="https://i.ibb.co/hHV3v76/foto-Perfil-Personal.png">
+            <div class="titulo">
+                <h2 class="title__bio">Hola, mi nombre es Ezequiel y soy desarrollador Web Full-Stack Jr.</h2>
+                <h3 class="title__subsection">Soy formado en en Certamen Argentina Programa y actualmente estoy participando del proyecto Oracle ONE en Alura Latam.</h3>
+            </div>
+            <iframe src="https://www.youtube.com/embed/pb7KbYS1H94" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="redes">
+                    <ul>
+                    <li class="title__network__item"><a href="https://github.com/ezequielmaureira"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png"> </a></li>
+                    <li class="title__network__item"><a href="https://www.linkedin.com/in/ezequiel-rene-maureira-0b4b529b"><img src="https://cdn-icons-png.flaticon.com/512/61/61109.png"></a></li>
+                    <li class="title__network__item"><a href="https://www.instagram.com/ezequiel.maureira22/"> <img src="https://cdn-icons-png.flaticon.com/512/87/87390.png"></a></li>
+                    <li class="title__network__item"><a href=""><img src="https://cdn-icons-png.flaticon.com/512/29/29587.png">CV</a></li>
+                </ul>
+            
+                
+
+            </div>
+            </section>
+
+    
+    <!-- Sección sobre mi -->
+    <section class="about" id="sobre-mi">
+        
+            <h3 class="about__title">Sobre mi...</h3>
+            <p class="about__paragraph">Soy una persona emprendedora, que adora los retos y no se rinde fácilmente. Muy detallista y autodidacta cada día, nunca dejo de aprender para desarrollar mi creatividad e implementarla en cosas nuevas.</p>
+            <p class="about__paragraph">Mi objetivo principal es desarrollarme profesionalmente y evolucionar en el área tecnologica, de modo que busco oportunidades que me permitan hacerlo.</p>
+            <!-- Si quieres, pon tú firma acá! -->
+            
+        
+    </section>
+
+    <!-- Sección de Skills -->
+    <section id="skills">
+        <h3 class="skill">Skills</h3>
+                     
+                    <ul class="skills">
+                        <li >
+                            <img src="https://icones.pro/wp-content/uploads/2021/05/icone-html-bleue.png">
+                            <h3>HTML 5</h3>
+                        </li>  
+
+                        <li > 
+                             <img src="data:image/png;base64,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" alt="">
+                             <h3>Javascript</h3> 
+                        </li>    
+
+                        <li >
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2JbY8_bsZZM4gCQnaRJWg2mzp978Nt480Z0S3VzDqSI1n2AALxCU6xjDWipEQ2ZxBmSg&usqp=CAU" alt="">
+                       
+                        <h3>Node JS</h3>       
+                       </li>       
+                        <li>
+                             <img src="data:image/png;base64,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" alt=""> 
+                        <h3>React</h3> 
+                        </li>                  
+                        <li >
+                             <img class="angular"src="https://icones.pro/wp-content/uploads/2022/07/icone-angulaire-bleu.png" alt=""> 
+                        <h3>Angular</h3>              
+                        <li >
+                             <img src="https://armyyazilim.com/wp-content/uploads/2019/10/css.png" alt=""> 
+                        <h3>CSS</h3>
+                        </li>
+                    </ul>
+                
+        
+    </section>
+
+    <!-- Sección de Hobbies -->
+    <section class="hob" id="hobbies">
+        <h2 class="hoby" >Hobbies</h2>
+        <ul class="hobbies">
+            <li class="tocarGuitarra">
+                <img class="guitarra" src="data:image/png;base64,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">
+                <h3>Tocar Guitarra</h3>
+            </li>  
+
+            <li class="programar"> 
+                 <img class="programa" src="https://static.vecteezy.com/system/resources/previews/001/203/930/non_2x/computer-png.png" alt="">
+                 <h3>Programar</h3> 
+            </li>    
+
+            <li >
+                <img class="entrenar"src="https://assets.stickpng.com/images/580b585b2edbce24c47b2b84.png" alt="">
+           
+            <h3>Entrenar</h3>       
+           </li>       
+            <li>
+                 <img class="jugar" src="https://png.pngtree.com/template/20191017/ourlarge/pngtree-logo-illustration-dog-outline-pet-design-on-white-background-image_319750.jpg" alt=""> 
+            <h3>Jugar con mi Perrito</h3> 
+            </li>                  
+           
+        </ul>
+    </section>
+
+        <!-- Sección de Formación académica -->
+    <section class="academic" id="formacion">
+        <h2 class="academic__title" >Formación académica</h2>
+        
+                <ul class="academic__courses__list">
+                    <!--Pon el logotipo de la institución de formación -->
+                    <li class="academic__courses__item__img"><img src="https://app.aluracursos.com/assets/images/logos/logo-aluraespanhol.svg"></li>
+                    <li class="formacion"><h4>Formación en Desarrollo Web Full-Stack 2022</h4></li>
+               
+                    <br>
+                    <li class="tecnologia"><p>CODIGO: HTML - CSS - JAVASCRIPT - JAVA - GIT - NODEJS </p></li>
+                    <br>
+                    <li class="tecnologia"><p>ENTORNOS y FRAMEWORKS: VisualStudioCode - Eclipse - Github </p></li>
+                </ul>
+            
+            <div class="academic__courses__box">
+                <ul class="academic__courses__list">
+                    <!-- Pon el logotipo de la institución de formación -->
+                    <li class="academic__courses__item__img"><img src="https://argentinaprograma.inti.gob.ar/pluginfile.php/1/theme_moove/logo/1659143423/APLogo-20-20.png"></li>
+                    <li class="formacion"><h4>Formación en Desarrollo Web Full-Stack 2022</h4></li>
+                    <br>
+                    <li class="tecnologia"><p>CODIGO: HTML - CSS - JAVASCRIPT -TYPESCRIPT - JAVA - GIT - NODEJS </p></li>
+                    <br>
+                    <li class="tecnologia"><p>ENTORNOS y FRAMEWORKS: VisualStudioCode - Angular - Github - Bootstrap - SpringBoot - Firebase - MySQl - CleverCloud </p></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Experiencia Profesional/Proyectos-->
+    <section class="experience" id="proyectos">
+        <h2 class="experience__section__title" >Experiencia Profesional</h2>
+    
+           <ul> <!-- Pon el logotipo/captura de pantalla de tu proyecto -->
+           <li> <img class="experience__img" src="https://i.ibb.co/qRJNmtG/fotoporfolio.png" alt="fotoporfolio"></li>
+            <li> <h1 class="porfolio">Porfolio Web Editable (FrontEnd-Backend-DER)</h1> </li>
+             
+             <li><h2 class="porfolio"> <h2>URL<a  class="porfolio2" href="https://porfolioezequiel.web.app/">https://porfolioezequiel.web.app/</a></h2></li>
+             
+           </ul>
+
+     
+    </section>
+        <!-- Sección de Contacto -->
+        <section class="formcontato" id="contacto">
+            <div  class="formcontato__contacto">
+                <div class="formcontato--esquerda">
+                    
+                </div>
+                <div class="formcontato__text">
+                    <h2 class="formcontato__title">Contacto</h2>
+                    <h3 class="formcontato__subtext">¿Quieres contactarme?</h3>
+                    <h3 class="formcontato__subtext">Complete el siguiente formulario y me pondré en contacto con usted lo antes posible. </h3>
+                    <form class="formcontato__form" name="form">
+                        <label for="name">Nombre y Apellido</label>
+                        <input id="name" class="formcontato__input" type="text" name="nombre" placeholder="Nombre y Apellido">
+                        <br>
+                        <label for="email">Email</label>
+                        <input class="formcontato__input"id="email" type="email" name="email" placeholder="E-mail">
+                        <br>
+                        <label for="name">Asunto</label>
+                        <input class="formcontato__input" id="asunto" type="text" name="asunto" placeholder="Assunto">
+                        <br>
+                        <label for="name">Mensaje</label>
+                        <textarea class="formcontato__textarea" rows="5" cols="40" id="mensage" name="mensaje" placeholder="Mensaje"></textarea>
+                        <button type="submit" class="formcontato__botao">Enviar mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Footer -->
+        <section class="footer">
+            <div class="footer__rodape">
+                <p>Desarrollado por Fulana de Tal</p>
+                <p>2022</p>
+            </div>
+        </section>
+    
+    
+ <!-- Script del documento JavaScript -->
+<script src="validacion.js"></script>
+
+
+    
+</body>
+
+</html>
